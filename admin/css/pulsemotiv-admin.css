@@ -1,0 +1,124 @@
+/**
+ * All of the CSS for pulsemotiv admin-specific functionality should be
+ * included in this file.
+ */
+.toplevel_page_Pulsemotiv-Integration .wp-menu-image > img
+{
+    width: 16px;
+}
+.pulsemotiv4wp .pulse_api_key_submit
+{
+    background: linear-gradient(120deg, #da22ff, #9733ee) !important;
+    border: none !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 25px !important;
+    padding: 0 45px !important;
+    height: 43px !important;
+    font-size: 15px !important;
+}
+
+.pulsemotiv4wp .pulse-api-status
+{
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.pulsemotiv4wp .pulse-api-status > .api-status-wrapper
+{
+    width: 50%;
+    display: flex;
+}
+
+.pulse-api-status > .api-status-wrapper > div
+{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.pulse-api-status > .api-status-wrapper > div.status
+{
+    margin-left: 4px;
+}
+.pulse-api-status > .api-status-wrapper > div.status.invalid
+{
+    color: #ff4b4b;
+}
+.pulse-api-status > .api-status-wrapper > div.status.valid
+{
+    color: #46b450;
+}
+.pulse-api-key-inputWrapper
+{
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.pulse-api-key-inputWrapper > .wrapper-div
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.pulse-api-key-inputWrapper > .wrapper-div > div
+{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.pulse-api-key-inputWrapper > .wrapper-div > div.input-wrapper > .pulse4wp-apikey-input
+{
+    width: 300px;
+    height: 30px;
+}
+.pulse-api-key-inputWrapper > .wrapper-div > div.input-wrapper > input::placeholder
+{
+    color: #aaa;
+}
+
+.pulses-table
+{
+    border: 1px solid #E5E5E5;
+    border-spacing: 0;
+}
+
+.pulses-table > thead > tr
+{
+    background-color: #fff;
+}
+
+.pulses-table tr > td:nth-of-type(2)
+{
+    padding-left: 30px;
+}
+
+.pulses-table tr > td
+{
+    padding: 10px;
+}
+
+.pulses-table > tbody > tr:nth-child(even)
+{
+    background-color: #fff;
+}
+
+.pulses-table tr > td > button.copyClick
+{
+    cursor: pointer;
+    background: linear-gradient(120deg, #da22ff, #9733ee) !important;
+    border: none !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 6px !important;
+    padding: 0 20px !important;
+    height: 30px !important;
+    min-width: 140px;
+}
+
+i.pulse-icon {
+    background-image: url("../img/icon.svg");
+    background-size: 20px 20px;
+}
